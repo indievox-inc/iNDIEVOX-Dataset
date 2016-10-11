@@ -27,6 +27,11 @@ You can check out and listen to the music by song id, using the url format like:
 * [Emotion Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_song_train.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 * [Emotion Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_song_test.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 
+### Buy Together Datasets
+
+* [Buy Together Disc](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset) - Each row is transaction that discs buys together, each column is the disc id number.
+* [Buy Together Song](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset) - Each row is transaction that songs buys together, each column is the song id number.
+
 ## Algorithms and Feature Extraction
 
 We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and [Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization) to train data from the datasets. The algorithm library we use is [Fuku-ML](https://github.com/fukuball/fuku-ml), and feature extraction library is [PyAudio](https://github.com/jleb/pyaudio).
