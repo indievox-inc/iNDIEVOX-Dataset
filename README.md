@@ -4,26 +4,6 @@
 
 iNDIEVOX open datasets, you can play machine learning algorithms with these datasets.
 
-## Cool Things Made From These Datasets
-
-## [Buy Together](https://www.indievox.com/disc/10586) - Use Buy Together Datasets
-
-![Buy Together](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/buy_together_demo.png)
-
----
-
-## [VA Radio](https://www.indievox.com/radio/va) - Use Music Valence-Arousal Datasets
-
-![VA Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/va_radio_demo.png)
-
----
-
-## [Emotion Radio](https://www.indievox.com/radio/emotion/relax) - Use Music Emotion Classification Datasets
-
-![Emotion Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/emotion_radio_demo.png)
-
----
-
 ## Datasets
 
 You can check out and listen to the music by song id, using the url format like: `https://www.indievox.com/song/song_id`. for example: [https://www.indievox.com/song/1](https://www.indievox.com/song/1)
@@ -70,6 +50,26 @@ You can check out and listen to the music by song id, using the url format like:
 * [Sad Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 * [Angry Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 * [Angry Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
+
+## Cool Things Made From These Datasets
+
+## [VA Radio](https://www.indievox.com/radio/va) - Use Music Valence-Arousal Datasets
+
+![VA Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/va_radio_demo.png)
+
+---
+
+## [Emotion Radio](https://www.indievox.com/radio/emotion/relax) - Use Music Emotion Classification Datasets
+
+![Emotion Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/emotion_radio_demo.png)
+
+---
+
+## [Buy Together](https://www.indievox.com/disc/10586) - Use Buy Together Datasets
+
+![Buy Together](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/buy_together_demo.png)
+
+---
 
 ## Algorithms and Feature Extraction
 
