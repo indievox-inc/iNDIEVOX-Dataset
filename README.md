@@ -10,7 +10,8 @@ You can check out and listen to the music by song id, using the url format like:
 
 ### Music Valence-Arousal Datasets
 
-* [Valence-Arousal Dataset Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_song_id.dataset) - Top 200 song ids are for testing and the other 800 song ids are for training.
+* [Valence-Arousal Dataset Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_train_song_id.dataset)
+* [Valence-Arousal Dataset Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_test_song_id.dataset)
 * [Valence Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_train.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is valence value.
 * [Valence Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_test.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is valence value.
 * [Arousal Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_train.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is arousal value.
