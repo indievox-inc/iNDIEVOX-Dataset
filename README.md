@@ -75,11 +75,11 @@ You can check out and listen to the music by song id, using the url format like:
 
 We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and [Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization) to train ML models from the datasets. The algorithm library we use is [Fuku-ML](https://github.com/fukuball/fuku-ml), and feature extraction library is [PyAudio](https://github.com/jleb/pyaudio).
 
-# How to contribute?
+## How to contribute?
 
 - To be complete.
 
-## Make a difference
+## Credit
 
 These guys below contributed with content and more. What are you waiting for? Come join us and put yourself down below ;)
 
