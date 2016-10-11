@@ -19,12 +19,18 @@ You can check out and listen to the music by song id, using the url format like:
 
 ### Music Emotion Classification Datasets
 
-* [Relax Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
-* [Happy Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
-* [Excited Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
-* [Blue Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
-* [Sad Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
-* [Angry Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
+* [Relax Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_train_song_id.dataset)
+* [Relax Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_test_song_id.dataset)
+* [Happy Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_train_song_id.dataset)
+* [Happy Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_test_song_id.dataset)
+* [Excited Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_train_song_id.dataset)
+* [Exccited Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_test_song_id.dataset)
+* [Blue Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_train_song_id.dataset)
+* [Blue Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_test_song_id.dataset)
+* [Sad Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_train_song_id.dataset)
+* [Sad Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test_song_id.dataset)
+* [Angry Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train_song_id.dataset)
+* [Angry Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test_song_id.dataset)
 * [Emotion Combine Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_combine_song_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 * [Emotion Combine Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_combine_song_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 
