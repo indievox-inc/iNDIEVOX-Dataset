@@ -16,7 +16,7 @@ You can check out and listen to the music by song id, using the url format like:
 * [Arousal Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_train.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is arousal value.
 * [Arousal Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_test.dataset) - Top 68 columns are audio features(use pyaudio) and the last column is arousal value.
 
-### Music Classification Datasets
+### Music Emotion Classification Datasets
 
 * [Relax Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
 * [Happy Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_song_id.dataset) - Top 10 song ids are for testing and the other 60 song ids are for training.
@@ -37,3 +37,15 @@ You can check out and listen to the music by song id, using the url format like:
 We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and [Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization) to train data from the datasets. The algorithm library we use is [Fuku-ML](https://github.com/fukuball/fuku-ml), and feature extraction library is [PyAudio](https://github.com/jleb/pyaudio).
 
 ## Made From These Datasets
+
+### [VA Radio](https://www.indievox.com/radio/va) - Use Music Valence-Arousal Datasets
+
+![VA Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/va_radio_demo.png)
+
+### [Emotion Radio](https://www.indievox.com/radio/emotion/relax) - Use Music Emotion Classification Datasets
+
+![Emotion Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/emotion_radio_demo.png)
+
+### [Buy Together](https://www.indievox.com/disc/10586) - Use Buy Together Datasets
+
+![Buy Together](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/buy_together_demo.png)
