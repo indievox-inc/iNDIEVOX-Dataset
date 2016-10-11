@@ -42,10 +42,16 @@ We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vec
 
 ![VA Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/va_radio_demo.png)
 
+---
+
 ### [Emotion Radio](https://www.indievox.com/radio/emotion/relax) - Use Music Emotion Classification Datasets
 
 ![Emotion Radio](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/emotion_radio_demo.png)
 
+---
+
 ### [Buy Together](https://www.indievox.com/disc/10586) - Use Buy Together Datasets
 
 ![Buy Together](https://raw.githubusercontent.com/indievox-inc/iNDIEVOX-Dataset/master/image/buy_together_demo.png)
+
+---
