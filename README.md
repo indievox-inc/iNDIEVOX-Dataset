@@ -2,8 +2,12 @@
 
 ## Intro
 
-iNDIEVOX open datasets, you can play machine learning algorithm with these datasets.
+iNDIEVOX open datasets, you can play machine learning algorithms with these datasets.
 
-## Algorithm and Feature Extraction
+## Datasets
+
+## Algorithms and Feature Extraction
+
+We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and [Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization) to train data from the datasets. The algorithm library we use is [Fuku-ML](https://github.com/fukuball/fuku-ml), and feature extraction library is [PyAudio](https://github.com/jleb/pyaudio).
 
 ## Made From These Datasets
