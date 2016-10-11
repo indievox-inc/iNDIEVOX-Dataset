@@ -29,12 +29,12 @@ You can check out and listen to the music by song id, using the url format like:
 
 ### Buy Together Datasets
 
-* [Buy Together Disc](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset) - Each row is transaction that discs buys together, each column is the disc id number.
-* [Buy Together Song](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset) - Each row is transaction that songs buys together, each column is the song id number.
+* [Buy Together Discs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset) - Each row is transaction that discs buys together, each column is the disc id number.
+* [Buy Together Songs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset) - Each row is transaction that songs buys together, each column is the song id number.
 
 ## Algorithms and Feature Extraction
 
-We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and [Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization) to train data from the datasets. The algorithm library we use is [Fuku-ML](https://github.com/fukuball/fuku-ml), and feature extraction library is [PyAudio](https://github.com/jleb/pyaudio).
+We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vector_machine) and [Ridge Regression](https://en.wikipedia.org/wiki/Tikhonov_regularization) to train ML models from the datasets. The algorithm library we use is [Fuku-ML](https://github.com/fukuball/fuku-ml), and feature extraction library is [PyAudio](https://github.com/jleb/pyaudio).
 
 ## Made From These Datasets
 
