@@ -82,7 +82,21 @@ We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vec
 
 ## How to contribute?
 
-- To be complete.
+All the data are labeled by experts, and you can be one of the experts. Just contribute!
+
+Step 1. Listen to the music on [iNDIEVOX](https://www.indievox.com).
+
+Step 2. Label the song in mind.
+
+For emotion, int value from 1 - 6, 1 stands for relax, 2 stands for happy, 3 stands for excited, 4 stands for blue, 5 stands for sad, 6 stands for angry.
+
+For valence, float value from 0 - 1, 0 means very negative mood, 1 means very positive mood, so if you feel a little happy, you can label 0.68.
+
+For arousal, float value from 0 - 1, 0 means very low energy mood, 1 means very high engergy mood, so if you feel excited, you can label 0.89.
+
+Step 3. Find the song id on url and find the song feature using API, then put the data in right dataset you label in your mind.
+
+Step 4. Send pull request.
 
 ## Credits
 
