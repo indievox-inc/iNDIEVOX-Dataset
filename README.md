@@ -86,7 +86,7 @@ We play algorithms like [Gaussian SVM](https://en.wikipedia.org/wiki/Support_vec
 
 ## Credits
 
-These guys below contributed with content and more. What are you waiting for? Come join us and put yourself down below ;)
+These guys below contributed with content and more. Come join us and put yourself down below ;)
 
 - [@fukeball](https://github.com/fukuball)
 - [@JudyTai](https://github.com/JudyTai)
