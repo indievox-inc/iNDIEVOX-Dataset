@@ -8,36 +8,34 @@ iNDIEVOX open datasets, you can play machine learning algorithms with these data
 
 You can check out and listen to the music by song id, using the url format like: `https://www.indievox.com/song/song_id`. for example: [https://www.indievox.com/song/1](https://www.indievox.com/song/1)
 
-### Buy Together Datasets
-
-* [Buy Together Discs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset) - Each row is transaction that discs buys together, each column is the disc id number.
-* [Buy Together Songs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset) - Each row is transaction that songs buys together, each column is the song id number.
-
 ### Music Valence-Arousal Datasets
 
-* [Valence Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is valence value.
-* [Valence Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is valence value.
-* [Arousal Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is arousal value.
-* [Arousal Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is arousal value.
+* [Valence Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_train.dataset)
+* [Valence Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_test.dataset)
+  * The 1 - 68 columns are audio features(use pyaudio) and the last column is valence value.
+* [Arousal Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_train.dataset)
+* [Arousal Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_test.dataset)
+  * The 1 - 68 columns are audio features(use pyaudio) and the last column is arousal value.
 * [Valence-Arousal Dataset Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_train_song_id.dataset)
 * [Valence-Arousal Dataset Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_test_song_id.dataset)
 
 ### Music Emotion Classification Datasets
 
-* [Emotion Combine Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_combine_song_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Emotion Combine Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_combine_song_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Relax Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Relax Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Happy Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Happy Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Excited Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Exccited Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Blue Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Blue Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Sad Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Sad Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Angry Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
-* [Angry Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test.dataset) - The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
+* [Emotion Combine Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_combine_song_train.dataset)
+* [Emotion Combine Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_combine_song_test.dataset)
+* [Relax Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_train.dataset)
+* [Relax Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_test.dataset)
+* [Happy Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_train.dataset)
+* [Happy Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_test.dataset)
+* [Excited Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_train.dataset)
+* [Exccited Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_03_excited_test.dataset)
+* [Blue Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_train.dataset)
+* [Blue Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_04_blue_test.dataset)
+* [Sad Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_train.dataset)
+* [Sad Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test.dataset)
+* [Angry Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train.dataset)
+* [Angry Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test.dataset)
+    * The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
 * [Relax Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_train_song_id.dataset)
 * [Relax Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_test_song_id.dataset)
 * [Happy Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_train_song_id.dataset)
@@ -50,6 +48,13 @@ You can check out and listen to the music by song id, using the url format like:
 * [Sad Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test_song_id.dataset)
 * [Angry Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train_song_id.dataset)
 * [Angry Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test_song_id.dataset)
+
+### Buy Together Datasets
+
+* [Buy Together Discs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset)
+  * Each row is transaction that discs buys together, each column is the disc id number.
+* [Buy Together Songs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset)
+  * Each row is transaction that songs buys together, each column is the song id number.
 
 ## Cool Things Made From These Datasets
 
