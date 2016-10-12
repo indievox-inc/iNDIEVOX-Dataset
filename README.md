@@ -8,6 +8,13 @@ iNDIEVOX open datasets, you can play machine learning algorithms with these data
 
 You can check out and listen to the music by song id, using the url format like: `https://www.indievox.com/song/song_id`. for example: [https://www.indievox.com/song/1](https://www.indievox.com/song/1)
 
+### Buy Together Datasets
+
+* [Buy Together Discs Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset)
+  * Each row is transaction that discs buys together, each column is the disc id number.
+* [Buy Together Songs Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset)
+  * Each row is transaction that songs buys together, each column is the song id number.
+
 ### Music Valence-Arousal Datasets
 
 * [Valence Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_train.dataset)
@@ -48,13 +55,6 @@ You can check out and listen to the music by song id, using the url format like:
 * [Sad Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test_song_id.dataset)
 * [Angry Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train_song_id.dataset)
 * [Angry Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test_song_id.dataset)
-
-### Buy Together Datasets
-
-* [Buy Together Discs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_disc.dataset)
-  * Each row is transaction that discs buys together, each column is the disc id number.
-* [Buy Together Songs](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/buy_together_song.dataset)
-  * Each row is transaction that songs buys together, each column is the song id number.
 
 ## Cool Things Made From These Datasets
 
