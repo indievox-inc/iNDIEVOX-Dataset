@@ -306,7 +306,7 @@ If you don't know how to extract features by using [PyAudio](https://github.com/
 
 #### Step 3. Wait 1 - 3 days for iNDIEVOX to extract features.
 
-#### Step 4. Done, you can use [iNDIEVOX MIR Open API](https://github.com/indievox-inc/iNDIEVOX-Dataset#indievox-mir-open-api) to check out the resul
+#### Step 4. Done, you can use [iNDIEVOX MIR Open API](#indievox-mir-open-api) to check out the resul
 
 ## How to contribute?
 
@@ -324,7 +324,7 @@ For arousal, float value from 0 - 1, 0 means very low energy mood, 1 means very 
 
 #### Step 3. Put data into dataset.
 
-Find the song id on url and find the song feature using [iNDIEVOX MIR Open API](https://github.com/indievox-inc/iNDIEVOX-Dataset#indievox-mir-open-api), then put the data into the right dataset you labeled in your mind.
+Find the song id on url and find the song feature using [iNDIEVOX MIR Open API](#indievox-mir-open-api), then put the data into the right dataset you labeled in your mind.
 
 #### Step 4. Send pull request.
 
