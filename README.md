@@ -115,8 +115,6 @@ You can check out some data by using iNDIEVOX MIR Open API:
         "label": "回聲樂團",
         "type": "專輯",
         "genre": "另類",
-        "play_num": "39813",
-        "favorite_num": "33",
         "songs": [
             {
                 "id": "2",
@@ -217,9 +215,7 @@ You can check out some data by using iNDIEVOX MIR Open API:
         "artist": "回聲樂團",
         "label": "",
         "genre": "另類",
-        "order": "3",
-        "play_num": "8485",
-        "favorite_num": "24"
+        "order": "3"
     }
 }
 ```
