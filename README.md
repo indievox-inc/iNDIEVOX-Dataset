@@ -2,7 +2,7 @@
 
 ## Intro
 
-iNDIEVOX open datasets, you can play machine learning algorithms with these datasets.
+[iNDIEVOX](https://www.indievox.com) open datasets, you can play machine learning algorithms with these datasets.
 
 ## Datasets
 
@@ -19,10 +19,10 @@ You can check out and listen to the music by song id, using the url format like:
 
 * [Valence Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_train.dataset)
 * [Valence Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/valence_test.dataset)
-  * The 1 - 68 columns are audio features(use pyaudio) and the last column is valence value.
+  * The 1 - 68 columns are audio features(use PyAudio) and the last column is valence value.
 * [Arousal Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_train.dataset)
 * [Arousal Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/arousal_test.dataset)
-  * The 1 - 68 columns are audio features(use pyaudio) and the last column is arousal value.
+  * The 1 - 68 columns are audio features(use PyAudio) and the last column is arousal value.
 * [Valence-Arousal Dataset Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_train_song_id.dataset)
 * [Valence-Arousal Dataset Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/va_test_song_id.dataset)
 
@@ -42,7 +42,7 @@ You can check out and listen to the music by song id, using the url format like:
 * [Sad Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_05_sad_test.dataset)
 * [Angry Training Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train.dataset)
 * [Angry Testing Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test.dataset)
-    * The 1 - 68 columns are audio features(use pyaudio) and the last column is emotion category number.
+    * The 1 - 68 columns are audio features(use PyAudio) and the last column is emotion category number.
 * [Relax Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_train_song_id.dataset)
 * [Relax Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_01_relax_test_song_id.dataset)
 * [Happy Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_02_happy_train_song_id.dataset)
@@ -298,7 +298,7 @@ You can check out some data by using iNDIEVOX MIR Open API:
 
 ## How to extract features from your songs?
 
-If you don't know how to extract features by using PyAudio, you can use iNDIEVOX to extract features for you. But before uploading songs to iNDIEVOX, **you should make sure that you have the rights to upload the songs**.
+If you don't know how to extract features by using [PyAudio](https://github.com/jleb/pyaudio), you can use iNDIEVOX to extract features for you. But before uploading songs to iNDIEVOX, **you should make sure that you have the rights to upload the songs**.
 
 #### Step 1. Upload your songs on [iNDIEVOX](https://www.indievox.com).
 
@@ -306,7 +306,7 @@ If you don't know how to extract features by using PyAudio, you can use iNDIEVOX
 
 #### Step 3. Wait 1 - 3 days for iNDIEVOX to extract features.
 
-#### Step 4. Done, you can use iNDIEVOX MIR Open API to check out the resul
+#### Step 4. Done, you can use [iNDIEVOX MIR Open API](https://github.com/indievox-inc/iNDIEVOX-Dataset#indievox-mir-open-api) to check out the resul
 
 ## How to contribute?
 
@@ -324,7 +324,7 @@ For arousal, float value from 0 - 1, 0 means very low energy mood, 1 means very 
 
 #### Step 3. Put data into dataset.
 
-Find the song id on url and find the song feature using iNDIEVOX MIR Open API, then put the data into the right dataset you labeled in your mind.
+Find the song id on url and find the song feature using [iNDIEVOX MIR Open API](https://github.com/indievox-inc/iNDIEVOX-Dataset#indievox-mir-open-api), then put the data into the right dataset you labeled in your mind.
 
 #### Step 4. Send pull request.
 
