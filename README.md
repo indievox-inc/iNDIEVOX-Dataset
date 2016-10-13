@@ -306,7 +306,7 @@ If you don't know how to extract features by using [PyAudio](https://github.com/
 
 #### Step 3. Wait 1 - 3 days for iNDIEVOX to extract features.
 
-#### Step 4. Done, you can use [iNDIEVOX MIR Open API](#indievox-mir-open-api) to check out the resul
+#### Step 4. Done, you can use [iNDIEVOX MIR Open API](#indievox-mir-open-api) to check out the results.
 
 ## How to contribute?
 
