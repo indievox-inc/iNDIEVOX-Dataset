@@ -176,6 +176,24 @@ You can check out some data by using iNDIEVOX MIR Open API:
                 "order": "10",
                 "artist_name": "回聲樂團"
             }
+        ],
+        "tags": [
+            {
+                "tag_id": "2",
+                "tag_title": "Rock",
+                "tag_num": "1"
+            },
+            ...
+            {
+                "tag_id": "18",
+                "tag_title": "Alternative",
+                "tag_num": "1"
+            },
+            {
+                "tag_id": "85",
+                "tag_title": "英倫搖滾",
+                "tag_num": "1"
+            }
         ]
     }
 }
@@ -215,7 +233,34 @@ You can check out some data by using iNDIEVOX MIR Open API:
         "artist": "回聲樂團",
         "label": "",
         "genre": "另類",
-        "order": "3"
+        "order": "3",
+        "tags": [
+            {
+                "tag_id": "2",
+                "tag_title": "Rock",
+                "tag_num": "1"
+            },
+            {
+                "tag_id": "2",
+                "tag_title": "Rock",
+                "tag_num": "1"
+            },
+            {
+                "tag_id": "18",
+                "tag_title": "Alternative",
+                "tag_num": "1"
+            },
+            {
+                "tag_id": "18",
+                "tag_title": "Alternative",
+                "tag_num": "1"
+            },
+            {
+                "tag_id": "65",
+                "tag_title": "Indie",
+                "tag_num": "1"
+            }
+        ]
     }
 }
 ```
