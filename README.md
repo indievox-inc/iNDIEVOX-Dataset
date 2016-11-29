@@ -56,6 +56,11 @@ You can check out and listen to the music by song id, using the url format like:
 * [Angry Training Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_train_song_id.dataset)
 * [Angry Testing Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/emotion_06_angry_test_song_id.dataset)
 
+### Lyrics Datasets
+
+* [Lyrics Dataset](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/lyrics.dataset)
+* [Lyrics Song ID List](https://github.com/indievox-inc/iNDIEVOX-Dataset/blob/master/dataset/lyrics_song_id.dataset)
+
 ## Cool Things Made From These Datasets
 
 ## [VA Radio](https://www.indievox.com/radio/va) - Use Music Valence-Arousal Datasets
