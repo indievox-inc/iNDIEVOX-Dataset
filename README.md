@@ -369,6 +369,28 @@ Find the song id on url and find the song feature using [iNDIEVOX MIR Open API](
 
 #### Step 4. Send pull request.
 
+## Run Examples
+
+#### Step 1. Install requirements
+
+```
+pip install -r requirements.txt
+```
+
+#### Step 2. Excute examples
+
+```
+python example_emotion_classification.py
+```
+
+```
+python example_valence_regression.py
+```
+
+```
+python example_chinese_lyrics_to_vector.py
+```
+
 ## Credits
 
 These guys below contributed with content and more. Come join us and put yourself down below ;)

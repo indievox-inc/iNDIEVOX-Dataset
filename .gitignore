@@ -1,0 +1,8 @@
+*.py[cod]
+*.dict
+*.mm
+*.lsi
+*.index
+*.projection
+
+.DS_STORE

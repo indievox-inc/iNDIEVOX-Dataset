@@ -1,0 +1,5 @@
+FukuML
+jieba
+gensim
+Pattern
+uniout
