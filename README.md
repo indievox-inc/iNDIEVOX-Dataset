@@ -4,6 +4,10 @@
 
 [iNDIEVOX](https://www.indievox.com) open datasets, you can play machine learning algorithms with these datasets.
 
+### Slide
+
+* [iNDIEVOX Open Data/API 智慧音樂應用：An Introduce to iNDIEVOX Open Data/API and the intelligent music application](https://speakerdeck.com/fukuball/api-and-the-intelligent-music-application)
+
 ## Datasets
 
 You can check out and listen to the music by song id, using the url format like: `https://www.indievox.com/song/song_id`. for example: [https://www.indievox.com/song/1](https://www.indievox.com/song/1)
