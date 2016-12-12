@@ -4,7 +4,7 @@
 
 [iNDIEVOX](https://www.indievox.com) open datasets, you can play machine learning algorithms with these datasets.
 
-### Slide
+### Tutorial and Slide
 
 * [iNDIEVOX Open Data/API 智慧音樂應用：An Introduce to iNDIEVOX Open Data/API and the intelligent music application](https://speakerdeck.com/fukuball/api-and-the-intelligent-music-application)
 
