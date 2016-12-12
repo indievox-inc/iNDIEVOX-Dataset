@@ -346,6 +346,122 @@ You can check out some data by using iNDIEVOX MIR Open API:
 }
 ```
 
+### Public User List API
+
+* End Point: `https://www.indievox.com/api/mir/user/public`
+* HTTP Method: GET
+* Parameter: offset, limit
+* Example: https://www.indievox.com/api/mir/user/public?app_id=P300000045&app_secret=9bdecdb004682865260c9d2a5cc71f0d&offset=0&limit=100
+* Response:
+
+```json
+{
+  "response": {
+    "status": {
+      "version": "0.1",
+      "code": "0",
+      "error_type": "success",
+      "message": "Success",
+      "parameter": {
+        "none": "none"
+      }
+    },
+    "user_list": [
+      {
+        "user_id": "iMYZJXgWxsw1_0eriCJUeQ",
+        "create_time": "2008-01-10 18:30:50"
+      },
+      {
+        "user_id": "nMKLDMERyjnpLmnRxwhXyA",
+        "create_time": "2008-01-10 21:19:51"
+      },
+      ...
+      {
+        "user_id": "kxDeOsZ3IICCnvqRiJNABg",
+        "create_time": "2008-01-13 19:59:49"
+      }
+    ]
+  }
+}
+```
+
+### Public User Music Parchase Record API
+
+* End Point: `https://www.indievox.com/api/mir/user/public/music_purchase_record/user_id`
+* HTTP Method: GET
+* Parameter: user_id, offset, limit
+* Example: https://www.indievox.com/api/mir/user/public/music_purchase_record/VTRdaIOJcR0k5bXbbXdwfw?app_id=P300000045&app_secret=9bdecdb004682865260c9d2a5cc71f0d&offset=0&limit=100
+* Response:
+
+```json
+{
+  "response": {
+    "status": {
+      "version": "0.1",
+      "code": "0",
+      "error_type": "success",
+      "message": "Success",
+      "parameter": {
+        "none": "none"
+      }
+    },
+    "music_purchase_record": [
+      {
+        "song_id": "19384",
+        "create_time": "2010-01-28 15:36:42"
+      },
+      {
+        "song_id": "19383",
+        "create_time": "2010-01-28 15:36:42"
+      },
+      ...
+      {
+        "song_id": "19382",
+        "create_time": "2010-01-28 15:36:42"
+      }
+    ]
+  }
+}
+```
+
+### Public User Music Play Record API
+
+* End Point: `https://www.indievox.com/api/mir/user/public/music_play_record/user_id`
+* HTTP Method: GET
+* Parameter: user_id, offset, limit
+* Example: https://www.indievox.com/api/mir/user/public/music_play_record/VTRdaIOJcR0k5bXbbXdwfw?app_id=P300000045&app_secret=9bdecdb004682865260c9d2a5cc71f0d&offset=0&limit=100
+* Response:
+
+```json
+{
+  "response": {
+    "status": {
+      "version": "0.1",
+      "code": "0",
+      "error_type": "success",
+      "message": "Success",
+      "parameter": {
+        "none": "none"
+      }
+    },
+    "music_play_record": [
+      {
+        "song_id": "14832",
+        "create_time": "2010-05-27 14:37:17"
+      },
+      {
+        "song_id": "18550",
+        "create_time": "2010-05-27 14:15:31"
+      },
+      ...
+      {
+        "song_id": "8409",
+        "create_time": "2010-05-28 23:24:20"
+      }
+    ]
+  }
+```
+
 ## How to extract features from your songs?
 
 If you don't know how to extract features by using [PyAudio](https://github.com/jleb/pyaudio), you can use iNDIEVOX to extract features for you. But before uploading songs to iNDIEVOX, **you should make sure that you have the rights to upload the songs**.
