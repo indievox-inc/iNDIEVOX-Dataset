@@ -462,6 +462,80 @@ You can check out some data by using iNDIEVOX MIR Open API:
   }
 ```
 
+### Public User Music Like Record API
+
+* End Point: `https://www.indievox.com/api/mir/user/public/music_like_record/user_id`
+* HTTP Method: GET
+* Parameter: user_id, offset, limit
+* Example: https://www.indievox.com/api/mir/user/public/music_like_record/VTRdaIOJcR0k5bXbbXdwfw?app_id=P300000045&app_secret=9bdecdb004682865260c9d2a5cc71f0d&offset=0&limit=100
+* Response:
+
+```json
+{
+  "response": {
+    "status": {
+      "version": "0.1",
+      "code": "0",
+      "error_type": "success",
+      "message": "Success",
+      "parameter": {
+        "none": "none"
+      }
+    },
+    "music_like_record": [
+      {
+        "song_id": "748",
+        "create_time": "2009-07-02 23:15:53"
+      },
+      {
+        "song_id": "9820",
+        "create_time": "2009-07-02 23:21:50"
+      },
+      {
+        "song_id": "16501",
+        "create_time": "2009-07-02 23:44:29"
+      },
+    ]
+  }
+```
+
+### Public User Music Dislike Record API
+
+* End Point: `https://www.indievox.com/api/mir/user/public/music_dislike_record/user_id`
+* HTTP Method: GET
+* Parameter: user_id, offset, limit
+* Example: https://www.indievox.com/api/mir/user/public/music_dislike_record/VTRdaIOJcR0k5bXbbXdwfw?app_id=P300000045&app_secret=9bdecdb004682865260c9d2a5cc71f0d&offset=0&limit=100
+* Response:
+
+```json
+{
+  "response": {
+    "status": {
+      "version": "0.1",
+      "code": "0",
+      "error_type": "success",
+      "message": "Success",
+      "parameter": {
+        "none": "none"
+      }
+    },
+    "music_dislike_record": [
+
+        "song_id": "24240",
+        "create_time": "2011-04-15 16:17:32"
+      },
+      {
+        "song_id": "18817",
+        "create_time": "2011-04-22 15:10:19"
+      },
+      {
+        "song_id": "12091",
+        "create_time": "2011-04-25 23:16:31"
+      },
+    ]
+  }
+```
+
 ## How to extract features from your songs?
 
 If you don't know how to extract features by using [PyAudio](https://github.com/jleb/pyaudio), you can use iNDIEVOX to extract features for you. But before uploading songs to iNDIEVOX, **you should make sure that you have the rights to upload the songs**.
